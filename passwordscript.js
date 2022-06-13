@@ -24,11 +24,13 @@ function generatePassword() {
 
 
 //prompt: uppercase no else if
-
+uppercase = window.prompt('Would you like to include uppercase letters?');
 
 //prompt: lowercase
+lowercase = window.prompt('Would you like to include lowercase letters?');
 
 //prompt: numbers
+numbers = window.prompt('Would you like to include numbers?');
 
 //concatenate
 }
