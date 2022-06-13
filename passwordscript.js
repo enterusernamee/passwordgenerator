@@ -33,6 +33,8 @@ lowercase = window.prompt('Would you like to include lowercase letters?');
 numbers = window.prompt('Would you like to include numbers?');
 
 //concatenate
+
+
 }
 
 //Assignment Code
