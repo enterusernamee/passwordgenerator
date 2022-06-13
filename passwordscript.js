@@ -1,13 +1,13 @@
 // var specialCharacters = ["!","@","#","$","%","^","&","*","(",")","{","}","[","]","=","<",">","/",",","."];
 
-// // Array of numeric characters to be included in password
+// // Array of numers characters to be included in password
 // var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
 // // Array of lowercase characters to be included in password
 // var lowerCasedCharacters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 
 // // Array of uppercase characters to be included in password
-// var upperCasedCharacters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N''O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+// var upperCaseCharacters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N''O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 
 function generatePassword() {
 
@@ -24,15 +24,57 @@ function generatePassword() {
 
 
 //prompt: uppercase no else if
-uppercase = window.prompt('Would you like to include uppercase letters?');
+//uppercase = window.prompt('Would you like to include uppercase letters?');
+
+var response = confirm('Would you like to include uppercase letters?');
+if ( response == true )
+{
+  alert('You chose to include uppercase letters.')
+}
+else{
+  alert('You declined to include uppercase letters.')
+}
 
 //prompt: lowercase
-lowercase = window.prompt('Would you like to include lowercase letters?');
+//lowercase = window.prompt('Would you like to include lowercase letters?');
+var response = confirm('Would you like to include lowercase letters?');
+if ( response == true )
+{
+  alert('You chose to include lowercase letters.')
+}
+else{
+  alert('You declined to include lowercase letters.')
+}
+
 
 //prompt: numbers
-numbers = window.prompt('Would you like to include numbers?');
+//numbers = window.prompt('Would you like to include numbers?');
+var response = confirm('Would you like to include numbers?')
+if ( response ==  true )
+{
+  alert('You have chosen to include numbers.')
+}
+else{
+  alert('You declined to include numbers.')
+}
+//prompt: special
+//special = window.prompt('Would you like to include special characters?');
+var response = confirm('Would you like to include special characters?');
+if ( response == true )
+{
+  alert('You have chosen to include special characters.')
+}
+else{
+  alert('You have declined to include special characters.')
+}
 
 //concatenate
+
+//?let uppercase = 
+//let lowercase =
+//let numbers = 
+//let special = 
+//str = `${uppercase} ${lowercase} ${numbers} ${special}` ;
 
 
 }
