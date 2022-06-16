@@ -96,7 +96,7 @@ window.alert("Your password will include lowercase letters.");
 }  else {
 window.alert("Your password will not include lowercase letters.");
 }
-cases - add lower case to the final array 
+//cases - add lower case to the final array 
 if(isLowerCase) { //true 
 finalArray += LowerCase; 
 }
