@@ -20,7 +20,7 @@ body {
     flex-direction: column;
 }
 .form {
-    display: :grid;
+    display: grid;
     grid-template-columns: auto auto;
     row-gap: 1rem;
     column-gap: 3rem;
@@ -62,10 +62,9 @@ label {
 
 .btn {
 grid-column: spa 2;
-background-color: transparent;
 border: 2px white;
-color: white;
-padding: .5rem
+color: light blue;
+padding: .5rem;
 font-weight: bold;
 cursor: pointer;
 border-radius: 1rem;
